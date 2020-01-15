@@ -1,16 +1,16 @@
 ---
 title: "_Encuesta de Conocimiento y Moral Tributaria de Chile ._ <br> .small[Sociología fiscal en Chile: conceptos, actores y reformas, Santiago de Chile] <br> .tiny[Proyecto FONDECYT No 11181223]"
 date: "Diciembre, 2019"
-author: "[Julio César Iturra Sanhueza]() <br> .small[Centro de Estudios de Conflicto y Cohesión Social]" 
+author: "Julio César Iturra Sanhueza <br> .small[Centro de Estudios de Conflicto y Cohesión Social]" 
 output:
   xaringan::moon_reader:
     nature:
       ratio: '16:9'
       beforeInit: "macros.js"
     lib_dir: libs
+    countIncrementalSlides: false
     css: ["xaringan-coes.css","https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"]
   seal: false # esto omite title slide automática  
-
 ---
 layout: true
 class: animated, fadeIn
