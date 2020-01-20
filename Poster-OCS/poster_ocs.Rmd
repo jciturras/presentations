@@ -14,7 +14,7 @@ logoleft_name: images/qrcode.png
 output:
   posterdown::posterdown_html:
     self_contained: false 
-bibliography: "C:/Users/Usuario/Dropbox/Bibtex/zlibrary.bib"
+bibliography: "zlibrary.bib"
 poster_height: "40in"
 poster_width: "28in"
 title_textsize: "90pt"
