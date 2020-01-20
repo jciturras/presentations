@@ -1,0 +1,123 @@
+---
+title: Observatorio de Cohesión Social
+author:
+  - name: Julio César Iturra Sanhueza
+    affil: 1
+  - name: Juan Carlos Castillo
+    affil: 1
+affiliation:
+  - num: 1
+    address: Centro de estudio de Conflicto y Cohesión Social, Universidad de Chile.
+column_numbers: 3
+logoright_name: images/shinny.png
+logoleft_name: images/qrcode.png
+output:
+  posterdown::posterdown_html:
+    self_contained: false 
+bibliography: "C:/Users/Usuario/Dropbox/Bibtex/zlibrary.bib"
+poster_height: "40in"
+poster_width: "28in"
+title_textsize: "90pt"
+primary_colour: "#497abd"
+titlebox_bordercol:	"#497abd"
+# titlebox_borderwidth:	"1cm"
+font_family: "Lato"
+# css: style.css
+csl: apa6.csl
+---
+
+<!--  https://github.com/brentthorne/posterdown/wiki/posterdown_html  -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introducción
+
+El **Observatorio de Cohesión Social** refiere a un esfuerzo por desarrollar un sitio web que integre distintas fuentes de datos y que a su vez posibilite el análisis comparativo de diversos indicadores relacionados a la cohesión social en países de América Latina. Estos indicadores se basan en experiencias internacionales [@markus2013mapping; @dragolov2013social; @national2014civic]
+
+La creación del **OCS** busca poner a disposición de la comunidad académica nacional e internacional, la ciudadanía y los hacedores de políticas públicas un repositorio que centralice los datos disponibles y los entregue en formatos interactivos. 
+
+
+
+# Objetivo
+
+Reportar, documentar y analizar indicadores de cohesión social entre países de América Latina.
+
+# Datos
+
+Los datos e indicadores permiten visualizar el **estado** y **trayectoria** de la cohesión social en 24 países de América. Para esto ha consolidado una base de datos que incluye las olas 2004, 2006, 2008, 2010, 2012 y 2014 del Latin American Public Opinion Project [@LAPOP2015].
+ 
+ 
+```{r eval=FALSE, fig.align='center', include=FALSE}
+knitr::include_graphics(path ="images/logo_coes.png")
+```
+ 
+# Indicadores 
+
+```{r}
+options(knitr.kable.NA = '')
+library(kableExtra)
+library(knitr)
+ind01<- xlsx::read.xlsx(file = "labels.xlsx",sheetIndex = 1,encoding = "UTF-8")
+kable(ind01,format = "html",col.names = c(" "," "),booktabs=TRUE) %>% kable_styling(font_size = 25,bootstrap_options = "striped", full_width = F)
+```
+
+
+# Programación 
+
+La aplicación fue programada usando la librería *Shiny* [@chang2017shiny] para el lenguaje de programación R [@rprogram2019] en su versión 3.6.1.
+
+
+# Funcionamiento 
+
+En primera instancia la manera de realizar análisis implica la selección de un **indicador**, un o más **países**, y finalmente la **visualización**.
+
+Es posible realizar dos tipos de análisis:
+
+1. **Transversal**: compara a los países en distintos indicadores usando todas las olas de la encuesta (es decir, es un promedio para cada país)
+
+2. **Longitudinal**: se compara a los países considerando los distintos momentos en el tiempo del indicador seleccionado.
+
+# Interfaz  
+
+```{r,include=TRUE,out.width='100%', fig.align='center'}
+knitr::include_graphics(path ="images/interfaz.png" )
+```
+
+
+**Secciones principales:**
+
+1. Inicio
+2. Corte transversal
+3. Longitudinal
+4. Correlacionar (en desarrollo)
+
+
+Tanto en la sección **Corte Transversal** como **Longitudinal** podremos encontrar dos elementos principales que permiten pedirle a la aplicación que visualize lo que deseamos.
+
+
+Primero seleccionamos el **indicador** y el **país** 
+
+`r icon::fa("chart-bar")`: Botón para comenzar la visualización.
+
+`r icon::fa("download")`: Botón para descargar los resultados en formato PNG o PDF.
+
+# Resultados 
+
+```{r,include=TRUE,out.width='95%', fig.align='center'}
+knitr::include_graphics(path ="images/Confianza_Interpersonal_lapop2.png" )
+```
+
+
+```{r,include=TRUE,out.width='95%', fig.align='center'}
+knitr::include_graphics(path ="images/Confianza_Interpersonal_lapop.png" )
+```
+
+# Conclusión
+
+El desarrollo del OCS ofrece al público académico y no académico, una aproximación al estado de la cohesión social en América Latina en los últimos años. Adicionalmente, siguiendo un flujo de trabajo basado en los principios de la Ciencia Abierta, todo el procedimiento de programación es abierto y de acceso libre, y por tanto, reproducible.     
+
+
+# Referencias
+

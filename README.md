@@ -2,6 +2,9 @@
 
 This is my repository for seminars, conferences and meetings.
 
+### _Poster: Observatorio de Cohesión Social._
+* Jornada Interna COES - Santiago de Chile. Enero 2020. [_Link_](https://jciturras.github.io/presentations/Poster-OCS/poster_ocs.html)
+
 ### _Encuesta de Conocimiento y Moral Tributaria de Chile._
 * Sociología fiscal en Chile: conceptos, actores y reformas - Santiago de Chile. Enero 2020. [_Link_](https://jciturras.github.io/presentations/taxes-2020/taxes-2020.html)
 

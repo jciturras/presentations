@@ -1,0 +1,42 @@
+.logo_right {
+    float: right;
+    width: 10%;
+    height: 100%;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo_left {
+    float: right;
+    width: 10%;
+    height: 100%;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.poster_body h2 {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 65pt;
+    border: 2mm solid #497abd;
+    background-color: #497abd;
+    border-radius: 4mm 0mm;
+    margin-top: 2mm;
+    margin-bottom: 2mm;
+    font-weight: bold;
+}
+
+
+.title_container {
+    width: 28in;
+    height: calc(40in * 0.15);
+    overflow: hidden;
+    background-color: #497abd;
+    border: 1cm solid #497abd;
+}

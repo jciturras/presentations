@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!--
+Font-awesome icons ie github or twitter
+-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+
+<!--
+Google fonts api stuff
+-->
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+
+
+
+<title>Observatorio de Cohesión Social</title>
+
+<script src="poster_ocs_files/kePrint-0.0.1/kePrint.js"></script>
+<link href="poster_ocs_files/font-awesome-5.3.1/css/fontawesome-all.min.css" rel="stylesheet" />
+
+
+
+
+<style>
+@page {
+size: 28in 40in;
+margin: 0;
+padding: 0;
+}
+body {
+margin: 0;
+font-size: 45px;
+width: 28in;
+height: 40in;
+padding: 0;
+text-align: justify;
+font-family: Lato;
+}
+.poster_wrap {
+width: 28in;
+height: 40in;
+padding: 0cm;
+}
+.title_container {
+width: 28in;
+height: calc(40in * 0.15);
+overflow: hidden;
+background-color: #497abd;
+border: 0 solid #0b4545;
+}
+.logo_left {
+float: left;
+width: 10%;
+height: 100%;
+background-color: #497abd;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.logo_right {
+float: right;
+width: 10%;
+height: 100%;
+background-color: #497abd;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.poster_title {
+text-align: center;
+position: relative;
+float: left;
+width: 80%;
+height: 100%;
+color: #FFFFFF;
+top: 50%;
+transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+}
+#title {
+font-family: Lato;
+}
+/* unvisited link */
+a:link {
+color: #cc0000;
+}
+.mybreak {
+  break-before: column;
+}
+/* visited link */
+a:visited {
+color: #cc0000;
+}
+
+/* mouse over link */
+a:hover {
+color: #cc0000;
+}
+
+/* selected link */
+a:active {
+color: #cc0000;
+}
+.poster_body {
+-webkit-column-count: 3; /* Chrome, Safari, Opera */
+-moz-column-count: 3; /* Firefox */
+column-count: 3;
+-webkit-column-fill: auto;
+-moz-column-fill: auto;
+column-fill: auto;
+-webkit-column-rule-width: 1mm;
+-moz-column-rule-width: 1mm;
+column-rule-width: 1mm;
+-webkit-column-rule-style: dashed;
+-moz-column-rule-style: dashed;
+column-rule-style: dashed;
+-webkit-column-rule-color: #497abd;
+-moz-column-rule-color: #497abd;
+column-rule-color: #497abd;
+column-gap: 1em;
+padding-left: 0.5em;
+padding-right: 0.5em;
+height: 100%;
+color: #000000
+background-color: #ffffff;
+}
+.poster_title h1 {
+font-size: 90pt;
+margin: 0;
+border: 0;
+font-weight: normal;
+}
+.poster_body_wrap{
+width: calc(28in + 0 + 0);
+height: calc(40in * 0.83);
+padding-top: calc(40in * 0.005);
+padding-bottom: calc(40in * 0.01);
+background-color: #ffffff;
+}
+.poster_title h3 {
+color: #ffffff;
+font-size: 50pt;
+margin: 0;
+border: 0;
+font-weight: normal;
+}
+.poster_title h3 > sup {
+  font-size: 35pt;
+  margin-left: 0.02em;
+}
+.poster_title h5 {
+color: #FFFFFF;
+font-size: 35pt;
+margin: 0;
+border: 0;
+font-weight: normal;
+}
+img {
+margin-top: 2cm;
+margin-bottom: 0;
+}
+.section {
+  padding: 0.2em;
+}
+.poster_body h1 {
+text-align: center;
+color: #FFFFFF;
+font-size: 65pt;
+border: 2mm solid #497abd;
+background-color: #497abd;
+border-radius: 4mm 0mm;
+margin-top: 2mm;
+margin-bottom: 2mm;
+font-weight: normal;
+}
+.poster_body h2 {
+color: #000000;
+font-size: 40pt;
+padding-left: 4mm;
+font-weight: normal;
+}
+.span {
+width: 200%;
+}
+/* center align leaflet map,
+from https://stackoverflow.com/questions/52112119/center-leaflet-in-a-rmarkdown-document */
+.html-widget {
+margin: auto;
+position: sticky;
+margin-top: 2cm;
+margin-bottom: 2cm;
+}
+.leaflet.html-widget.html-widget-static-bound.leaflet-container.leaflet-touch.leaflet-fade-anim.leaflet-grab.leaflet-touch-drag.leaflet-touch-zoom {
+position: sticky;
+width: 100%;
+}
+pre.sourceCode.r {
+background-color: #dddddd40;
+border-radius: 4mm;
+padding: 4mm;
+width: 75%;
+/* align-items: center; */
+margin: auto;
+padding-left: 2cm;
+}
+code.sourceCode.r{
+background-color: transparent;
+font-size: 20pt;
+border-radius: 2mm;
+}
+.caption {
+font-size: 25pt;
+}
+.table caption {
+font-size: 25pt;
+padding-bottom: 3mm;
+
+}
+code {
+font-size: 1em;
+font-family: monospace;
+background-color: #00808024;
+color: #497abd;
+padding: 1.2mm;
+border-radius: 2mm;
+}
+.poster_title code {
+font-size: 1em;
+}
+table {
+font-size: 40px;
+margin: auto;
+border-top: 3px solid #666;
+border-bottom: 3px solid #666;
+}
+table thead th {
+border-bottom: 3px solid #ddd;
+}
+td {
+padding: 8px;
+}
+th {
+padding: 15px;
+}
+caption {
+margin-bottom: 10px;
+}
+.poster_body p {
+margin-right: 4mm;
+margin-left: 4mm;
+margin-top: 6mm;
+margin-bottom: 10mm;
+}
+.poster_body ol {
+margin-right: 4mm;
+margin-left: 4mm;
+}
+#ul {
+margin-right: 4mm;
+margin-left: 4mm;
+}
+.references p {
+font-size: 20pt;
+}
+.orcid img {
+  width: 1em;
+}
+</style>
+</head>
+<body>
+
+
+<div class="poster_wrap">
+<div class="title_container">
+<!-- Left Logo  -->
+<div class="logo_left">
+<img src= 'images/qrcode.png' style="width: 80%">
+</div>
+<!-- Poster Title -->
+<div class= "poster_title">
+<h1 id="title">Observatorio de Cohesión Social</h1>
+<h3 id="author">Julio César Iturra Sanhueza<sup>1</sup>, Juan Carlos Castillo<sup>1</sup></h3><br>
+<h5 id="affiliation"><sup>1</sup> Centro de estudio de Conflicto y Cohesión Social, Universidad de Chile.</h5>
+</div>
+<!-- Right Logo  -->
+<div class="logo_right">
+<img src=images/shinny.png style="width: 80%">
+</div>
+</div>
+
+<div class='poster_body_wrap'>
+<div class='poster_body'>
+<!--  https://github.com/brentthorne/posterdown/wiki/posterdown_html  -->
+<div id="introducción" class="section level1">
+<h1>Introducción</h1>
+<p>El <strong>Observatorio de Cohesión Social</strong> refiere a un esfuerzo por desarrollar un sitio web que integre distintas fuentes de datos y que a su vez posibilite el análisis comparativo de diversos indicadores relacionados a la cohesión social en países de América Latina. Estos indicadores se basan en experiencias internacionales <span class="citation">(Council &amp; others, 2014; Dragolov et al., 2013; Markus &amp; Dharmalingam, 2013)</span></p>
+<p>La creación del <strong>OCS</strong> busca poner a disposición de la comunidad académica nacional e internacional, la ciudadanía y los hacedores de políticas públicas un repositorio que centralice los datos disponibles y los entregue en formatos interactivos.</p>
+</div>
+<div id="objetivo" class="section level1">
+<h1>Objetivo</h1>
+<p>Reportar, documentar y analizar indicadores de cohesión social entre países de América Latina.</p>
+</div>
+<div id="datos" class="section level1">
+<h1>Datos</h1>
+<p>Los datos e indicadores permiten visualizar el <strong>estado</strong> y <strong>trayectoria</strong> de la cohesión social en 24 países de América. Para esto ha consolidado una base de datos que incluye las olas 2004, 2006, 2008, 2010, 2012 y 2014 del Latin American Public Opinion Project <span class="citation">(LAPOP, 2017)</span>.</p>
+</div>
+<div id="indicadores" class="section level1">
+<h1>Indicadores</h1>
+<table class="table table-striped" style="font-size: 25px; width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:left;">
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Confianza en Eficacia Sistema Judicial
+</td>
+<td style="text-align:left;">
+Gobernantes están Interesados en lo que la Gente Piensa
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Confianza en Ejecutivo
+</td>
+<td style="text-align:left;">
+Redistribución
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Confianza en Fuerzas Armadas
+</td>
+<td style="text-align:left;">
+Derechos Básicos están Protegidos por el Sistema Político
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Confianza en Iglesia Católica
+</td>
+<td style="text-align:left;">
+Interés en Política
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Confianza en Iglesias Evangélicas/Protestantes
+</td>
+<td style="text-align:left;">
+Orgullo con el Sistema Político
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Confianza en Partidos Políticos
+</td>
+<td style="text-align:left;">
+Participar en Protesta
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Confianza en Sistema Judicial
+</td>
+<td style="text-align:left;">
+Percepción de Corrupción Pública
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Confianza Interpersonal
+</td>
+<td style="text-align:left;">
+Respeto por la Propiedad Privada
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Democracia es mejor que otras Formas de Gobierno
+</td>
+<td style="text-align:left;">
+Respeto por las Instituciones
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Evaluación Gob. Combatiendo Corrupción
+</td>
+<td style="text-align:left;">
+Satisfacción con la Democracia
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Evaluación Gob. en Seguridad Ciudadana
+</td>
+<td style="text-align:left;">
+Voto en Últimas Elecciones Presidenciales
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Evaluación Gob. del Gobierno Manejando Economía
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="programación" class="section level1">
+<h1>Programación</h1>
+<p>La aplicación fue programada usando la librería <em>Shiny</em> <span class="citation">(Chang et al., 2017)</span> para el lenguaje de programación R <span class="citation">(R Core Team, 2019)</span> en su versión 3.6.1.</p>
+</div>
+<div id="funcionamiento" class="section level1">
+<h1>Funcionamiento</h1>
+<p>En primera instancia la manera de realizar análisis implica la selección de un <strong>indicador</strong>, un o más <strong>países</strong>, y finalmente la <strong>visualización</strong>.</p>
+<p>Es posible realizar dos tipos de análisis:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Transversal</strong>: compara a los países en distintos indicadores usando todas las olas de la encuesta (es decir, es un promedio para cada país)</p></li>
+<li><p><strong>Longitudinal</strong>: se compara a los países considerando los distintos momentos en el tiempo del indicador seleccionado.</p></li>
+</ol>
+</div>
+<div id="interfaz" class="section level1">
+<h1>Interfaz</h1>
+<p><img src="images/interfaz.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><strong>Secciones principales:</strong></p>
+<ol style="list-style-type: decimal">
+<li>Inicio</li>
+<li>Corte transversal</li>
+<li>Longitudinal</li>
+<li>Correlacionar (en desarrollo)</li>
+</ol>
+<p>Tanto en la sección <strong>Corte Transversal</strong> como <strong>Longitudinal</strong> podremos encontrar dos elementos principales que permiten pedirle a la aplicación que visualize lo que deseamos.</p>
+<p>Primero seleccionamos el <strong>indicador</strong> y el <strong>país</strong></p>
+<p><i class="fas  fa-chart-bar "></i>: Botón para comenzar la visualización.</p>
+<p><i class="fas  fa-download "></i>: Botón para descargar los resultados en formato PNG o PDF.</p>
+</div>
+<div id="resultados" class="section level1">
+<h1>Resultados</h1>
+<p><img src="images/Confianza_Interpersonal_lapop2.png" width="95%" style="display: block; margin: auto;" /></p>
+<p><img src="images/Confianza_Interpersonal_lapop.png" width="95%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="conclusión" class="section level1">
+<h1>Conclusión</h1>
+<p>El desarrollo del OCS ofrece al público académico y no académico, una aproximación al estado de la cohesión social en América Latina en los últimos años. Adicionalmente, siguiendo un flujo de trabajo basado en los principios de la Ciencia Abierta, todo el procedimiento de programación es abierto y de acceso libre, y por tanto, reproducible.</p>
+</div>
+<div id="referencias" class="section level1 unnumbered">
+<h1>Referencias</h1>
+<div id="refs" class="references">
+<div id="ref-chang2017shiny">
+<p>Chang, W., Cheng, J., Allaire, J., Xie, Y., McPherson, J., &amp; others. (2017). Shiny: Web application framework for R. <em>R Package Version</em>, <em>1</em>(5).</p>
+</div>
+<div id="ref-national2014civic">
+<p>Council, N. R., &amp; others. (2014). <em>Civic engagement and social cohesion: Measuring dimensions of social capital to inform policy</em>. National Academies Press.</p>
+</div>
+<div id="ref-dragolov2013social">
+<p>Dragolov, G., Ignácz, Z., Lorenz, J., Delhey, J., &amp; Boehnke, K. (2013). Social cohesion radar measuring common ground: An international comparison of social cohesion methods report.</p>
+</div>
+<div id="ref-LAPOP2015">
+<p>LAPOP, V. U. (2017). Latin American Public Opinion Project (LAPOP), 2004-2015 [28 COUNTRIES]: Version 1. <a href="https://doi.org/10.3886/icpsr36562.v1">https://doi.org/10.3886/icpsr36562.v1</a></p>
+</div>
+<div id="ref-markus2013mapping">
+<p>Markus, A., &amp; Dharmalingam, A. (2013). Mapping social cohesion. <em>The Scanlon Foundation Surveys: National Report 2013</em>.</p>
+</div>
+<div id="ref-rprogram2019">
+<p>R Core Team. (2019). <em>R: A language and environment for statistical computing</em>. Vienna, Austria: R Foundation for Statistical Computing.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+</body>
+</html>
