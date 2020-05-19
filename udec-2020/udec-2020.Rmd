@@ -341,9 +341,9 @@ class: center, middle, inverse
 ---
 class: center, middle
 
-Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+Presentación creada vial la librería de R [**xaringan**](https://github.com/yihui/xaringan).
 
-The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+Además de [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), y [R Markdown](https://rmarkdown.rstudio.com).
 
 
 
