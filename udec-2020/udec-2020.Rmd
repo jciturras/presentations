@@ -293,12 +293,12 @@ Este filme es sin lugar a dudas un importante documento audiovisual ya que de al
 
 Programa que indaga en los antecedentes históricos de la desigual distribución de la riqueza en Chile, fenómeno perceptible desde los orígenes de la conquista y consolidado luego con la independencia. [(Fuente)](http://www.elobservatodo.cl/noticia/sociedad/documental-que-retrata-200-anos-de-desigualdad-en-chile-llegara-las-pantallas) 
 
-.small[I: Distribución de la riqueza]
-.small[II: Vivienda]
-.small[III: Educacion]
-.small[IV: Salud y castástrofes]
-.small[V: Migración]
-.small[VI: Movimientos Sociales]
+.small[I: Distribución de la riqueza] <br>
+.small[II: Vivienda] <br>
+.small[III: Educacion]<br>
+.small[IV: Salud y castástrofes]<br>
+.small[V: Migración]<br>
+.small[VI: Movimientos Sociales]<br>
 
 ]
 .right-column[
