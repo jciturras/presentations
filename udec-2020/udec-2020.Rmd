@@ -1,0 +1,349 @@
+---
+title: "Reflexiones sobre el quehacer sociológico. <br> .small[Universidad de Concepción]"
+date: "Mayo, 2020"
+author: "Julio César Iturra Sanhueza" 
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      countIncrementalSlides: false
+      beforeInit: "macros.js"
+    css: ["xaringan-coes.css","https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"]
+    seal: true # esto omite title slide automática  
+---
+layout: true
+class: animated, fadeIn
+
+---
+class: slideInRight, center, middle
+
+# Introducción
+
+---
+
+# La presentación: 
+
+### 1. Introducción a la presentación. Ideas base y puntos más generales.
+### 2. Qué hacer sociológico: rol de las teorías y métodos de investigación
+### 3. El quehacer profesional
+### 4. ¿Qué se hace hoy?  <!-- (lo que hacen mis colegas que sea interesante y lo que he hecho yo). -->
+
+---
+class: middle, center
+# ¿Qué puede hacer la sociología?
+
+---
+class: center
+
+.right-column[![:scale 70%](images/bauman01.gif)]
+
+.left-column[<br> <br> <br> ![:scale 65%](images/dubet01.jpg)]
+---
+class: middle
+
+> "(...) para generar un **"modo nuevo de pensar"**, la **[sociología]()** debe permitir (o contribuir) a los individuos captar **"lo que está ocurriendo en el mundo y comprender lo que está pasando en ellos mismos"** para ponerlos en mejores condiciones de sobrellevar sobre la historia y el desarrollo de su sociedad" 
+
+.right[(Mills, 1961).] 
+
+
+---
+
+## Entonces...
+> Es necesario cultivar una cualidad mental: [**"La imaginación sociológica"**]() (...) como el ejercicio intelectual que permite **conectar** el proceso social general y las situaciones que los individuos deben enfrentar en sus vidas cotidianas.]
+
+
+.right[
+
+<!-- _ (la imaginación sociológica) "(...) vincula lo que aparece separado, la **biografía** y la **historia**, recuerda que "el individuo solo puede comprender **su propia experiencia** y evaluar **su propio destino** localizándose a sí mismo en su época"_ (Mills, 1974[1959]: 25). -->
+
+]
+
+.center[![:scale 75%](images/mills01.jpg) ]
+
+---
+class: middle, center
+# La caja de herramientas:
+## Las teorías y los métodos
+---
+class: middle, center
+# I: Las teorías 
+---
+class: middle, center
+.center[![:scale 100%](images/genea01.jpg)]
+
+---
+
+class: middle, center
+.center[![:scale 40%](images/weber01.jpg)] 
+
+---
+class: bottom, right
+background-image: url(images/bote01.png) 
+background-size: contain
+
+.small[Hedström & Ylikoski (2010), _Causal Mechanisms in the Social Sciences_]
+---
+class: bottom, right
+background-image: url(images/bote02.png) 
+background-size: contain
+.small[Hedström & Ylikoski (2010), _Causal Mechanisms in the Social Sciences_]
+---
+class: bottom, right
+background-image: url(images/bote03.png) 
+background-size: contain
+.small[Hedström & Ylikoski (2010), _Causal Mechanisms in the Social Sciences_]
+---
+class: middle, center
+# II: Los métodos
+---
+class: middle
+
+> "El buen investigador (o investigadora) es aquel que tiene una [**aproximación artesanal**]() a su trabajo. Es una persona que, además de dominar ciertas herramientas, le gusta hacer investigación y le gusta hacerla bien. Siente orgullo en su capacidad y lo considera una extensión de su persona."
+
+.right[(Barriga y Henriquez, 2004)]
+
+> "El investigador social aquí supuesto, no opera con protocolos sino que debe **"diseñar"** sus instrumentos y seleccionar sus [**estrategias o enfoques investigativos**]()".
+
+.right[(Ibañez, 2006)]
+
+---
+
+class: bottom, right
+background-image: url(images/Diapositiva1.png) 
+background-size: contain
+##### (Ibañez, 2006)
+---
+class:bottom, right
+background-image: url(images/Diapositiva2.png) 
+background-size: contain
+##### (Ibañez, 2006)
+---
+class:bottom, right
+background-image: url(images/Diapositiva3.png) 
+background-size: contain
+##### (Ibañez, 2006)
+---
+class:bottom, right
+background-image: url(images/Diapositiva4.png) 
+background-size: contain
+##### (Ibañez, 2006)
+---
+class:bottom, right
+background-image: url(images/Diapositiva5.png) 
+background-size: contain
+##### (Ibañez, 2006)
+---
+class:bottom, right
+background-image: url(images/Diapositiva6.png) 
+background-size: contain
+##### (Ibañez, 2006)
+---
+class:bottom, right
+background-image: url(images/Diapositiva7.png) 
+background-size: contain
+##### (Ibañez, 2006)
+---
+class: bottom, center
+background-image: url(images/Diapositiva8.png)   
+background-size: contain
+
+.small[**Elaboración propia**] 
+---
+class: center, middle 
+# El quehacer profesional
+
+---
+class: center, middle
+
+La sociología posee diferentes **campos de acción** 
+
+.center[![:scale 70%](images/areas01.png)]
+
+Estos campos son diversos en enfoques aplicados 
+
+---
+class: middle, center
+# Educación
+---
+.left-column[
+.center[![:scale 100%](images/ceur01.png)
+
+[Estudios en Docentes: CEUR (UBB)](https://ceur2017.blogspot.com/2017/07/blog-post.html
+)]
+]
+
+.left-column[
+
+.center[![:scale 73%](images/ciae01.png)
+
+[Mejoramiento Escolar: CIAE (UChile)](http://www.ciae.uchile.cl/docs/LoAprendiEscuela/libro/B_Loaprendienlaescuela/mobile/index.html)]
+]
+
+---
+class: middle, center
+# Salud
+---
+.left-column[
+.center[![:scale 100%](images/salud01.png)]
+
+<br>
+[Salud Pública: Jóvenes y adolecentes](http://www.seremidesaludbiobio.cl/sd/web/content/Programas/programa_salud_integral_jovenes_adolecentes/Diagnostico%20regional%20joven%20y%20adolescente.pdf) 
+]
+
+
+.right-column[
+.center[![:scale 70%](images/saluddatos01.jpeg)
+
+[Datos en Salud Pública (UCHile)](http://repositorio.uchile.cl/bitstream/handle/2250/133695/manual_stata_esp.pdf?sequence=1&isAllowed=y)]
+]
+
+---
+class: middle, center
+# Socio-ecológico
+---
+class: center
+
+.left-column[
+.center[![:scale 90%](images/ruta01.png)]
+
+<br>
+[Ruta de la Semilla (FONDART)](https://www.youtube.com/watch?v=Ei0OK3A44dA) 
+]
+
+.right-column[
+.center[![:scale 60%](images/orden01.png)
+
+[Patrimonio Cultural: Gestión Territorial](http://repositorio.uchile.cl/bitstream/handle/2250/133695/manual_stata_esp.pdf?sequence=1&isAllowed=y)]
+]
+
+<!-- [http://www.prela.cl/wp-content/uploads/ResumenEjecutivoPOGT-Lanalhue-baja.pdf]   -->
+
+<!-- http://fundacionnahuelbuta.cl/2018/05/17/actores-de-turismo-revisan-mapas-de-corredores-de-turismo-experiencial-en-curanilahue/ -->
+
+<!-- http://www.prela.cl/wp-content/uploads/ResumenEjecutivoPOGT-Lanalhue-baja.pdf -->
+
+<!-- * Ver Figura 9  -->
+<!-- * Mapeo Colectivo/Catografía Social. -->
+<!-- * Dialogar lo que decía el Lonko -->
+---
+class: middle, center
+# Derechos Humanos y Memoria
+---
+
+.right-column[
+.center[![:scale 70%](images/indh01.jpg)
+
+[Estudio Condiciones Carcelarias (INDH)](https://bibliotecadigital.indh.cl/handle/123456789/1180)
+]
+]
+
+.left-column[
+<br>
+
+.center[![:scale 100%](images/memoria01.png)
+
+[Museo de la Memoria y los DDHH](https://ww3.museodelamemoria.cl/publicaciones/)
+]
+]
+---
+class: middle, center
+# Estudios del Trabajo
+---
+
+.right-column[
+.center[![:scale 90%](images/datoslabor01.png)
+
+[Fábrica de Datos Laborales (FONDECYT)](https://fabricadedatoslaborales.cl/las-mujeres-y-el-trabajo-asalariado-claves-sobre-su-participaci%C3%B3n-sindical/)
+]
+]
+
+.right-column[
+<br>
+.center[![:scale 100%](images/getsur.png)
+
+[Grupos de Estudios del Trabajo desde el Sur](https://fabricadedatoslaborales.cl/las-mujeres-y-el-trabajo-asalariado-claves-sobre-su-participaci%C3%B3n-sindical/)
+]
+]
+
+---
+class: center, middle
+# Como estudiantes de la UdeC 
+
+---
+class: inverse, left, bottom
+background-image: url(images/coleto01.jpg) 
+background-size: contain
+
+## (Septiembre, 2011)
+---
+class: middle, center
+# Para echar andar la imaginación sociológica
+---
+
+
+.left-column[![:scale 80%](images/bourdiu01.jpg)]
+
+### [La Sociología es un deporte de combate](https://www.youtube.com/watch?v=xkkDSSRYpWw)
+
+
+Este filme es sin lugar a dudas un importante documento audiovisual ya que de alguna forma ayuda a responer la angustiante y complicada pregunta tantas veces lanzada a este tipo de especialista en ciencias sociales: **¿qué es un sociólogo y qué hace?**  [(Fuente)](http://ineditviable.blogspot.com/2012/04/la-sociologia-es-un-deporte-de-combate.html)
+---
+.left-column[### [Copia Feliz del Edén (2014)](https://www.youtube.com/watch?time_continue=4&v=IeW0RAG3aww)
+
+Programa que indaga en los antecedentes históricos de la desigual distribución de la riqueza en Chile, fenómeno perceptible desde los orígenes de la conquista y consolidado luego con la independencia. [(Fuente)](http://www.elobservatodo.cl/noticia/sociedad/documental-que-retrata-200-anos-de-desigualdad-en-chile-llegara-las-pantallas) 
+
+.small[I: Distribución de la riqueza]
+.small[II: Vivienda]
+.small[III: Educacion]
+.small[IV: Salud y castástrofes]
+.small[V: Migración]
+.small[VI: Movimientos Sociales]
+
+]
+.right-column[
+<br><br><br>
+.right[![:scale 90%](images/copia01.jpg)] 
+]
+
+---
+ 
+### [El Lider, Karl Marx (2019)](https://www.youtube.com/watch?v=vRwzJsGicaY)
+
+
+La historia de “El líder” nos narra la biografía de Marx, pasando por diferentes puntos importantes en su vida, su infancia con Jenny, sus inicios como joven hegeliano, la construcción del socialismo científico, hasta su muerte. El mérito más grande de la serie es precisamente, tratar de rescatar el humano detrás de las ideas. [(Fuente)](http://www.laizquierdadiario.com/El-lider-el-anime-de-Karl-Marx)
+
+
+.center[![:scale 55%](images/marx01.jpg)]
+
+---
+class:middle, center
+
+# ¡Gracias!
+## julioiturrasanhueza@gmail.com
+
+---
+
+## Referencias
+
+Ibañez, J. (2006). Presentación. En Metodologías de investigación social. Introducción a los oficios. LOM EDICIONES.
+
+Mills, C. W. (1961). La imaginación sociológica. Fondo de Cultura Económica. 
+
+Barriga, Omar, & Henríquez, Guillermo (2004). Artesanía y Técnica en la Enseñanza de la Metodología de la Investigación Social. Cinta de Moebio,  (20),0.[fecha de Consulta 18 de Mayo de 2020]. ISSN: . Disponible en:   https://www.redalyc.org/articulo.oa?id=101/10102005
+
+Hedström, P., & Ylikoski, P. (2010). Causal mechanisms in the social sciences. Annual review of sociology, 36, 49-67.
+---
+class: center, middle, inverse
+
+# _Reflexiones sobre el quehacer sociológico_
+
+---
+class: center, middle
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+
+
+

@@ -1,28 +1,27 @@
 ---
 title: Observatorio de Cohesión Social
-author:
-  - name: Julio César Iturra Sanhueza
-    affil: 1
-  - name: Juan Carlos Castillo
-    affil: 1
+author: 
+  - name: Centro de Estudios de Conflicto y Cohesión Social 
+    # affil: 
 affiliation:
-  - num: 1
-    address: Centro de estudio de Conflicto y Cohesión Social, Universidad de Chile.
+  - num:
+    address: https://juitsa.shinyapps.io/o|cs-coes/
 column_numbers: 3
 logoright_name: images/shinny.png
 logoleft_name: images/qrcode.png
 output:
   posterdown::posterdown_html:
     self_contained: false 
+    after_body: appendix.md
 bibliography: "zlibrary.bib"
 poster_height: "40in"
 poster_width: "28in"
-title_textsize: "90pt"
+title_textsize: "110pt"
 primary_colour: "#497abd"
 titlebox_bordercol:	"#497abd"
 # titlebox_borderwidth:	"1cm"
 font_family: "Lato"
-# css: style.css
+css: style.css
 csl: apa6.csl
 ---
 
@@ -60,7 +59,7 @@ options(knitr.kable.NA = '')
 library(kableExtra)
 library(knitr)
 ind01<- xlsx::read.xlsx(file = "labels.xlsx",sheetIndex = 1,encoding = "UTF-8")
-kable(ind01,format = "html",col.names = c(" "," "),booktabs=TRUE) %>% kable_styling(font_size = 25,bootstrap_options = "striped", full_width = F)
+kable(ind01,format = "html",col.names = c(" "," "),booktabs=TRUE) %>% kable_styling(font_size = 22,bootstrap_options = "striped", full_width = F)
 ```
 
 
@@ -114,10 +113,36 @@ knitr::include_graphics(path ="images/Confianza_Interpersonal_lapop2.png" )
 knitr::include_graphics(path ="images/Confianza_Interpersonal_lapop.png" )
 ```
 
+
+
 # Conclusión
 
-El desarrollo del OCS ofrece al público académico y no académico, una aproximación al estado de la cohesión social en América Latina en los últimos años. Adicionalmente, siguiendo un flujo de trabajo basado en los principios de la Ciencia Abierta, todo el procedimiento de programación es abierto y de acceso libre, y por tanto, reproducible.     
+El desarrollo del OCS ofrece al público académico y no académico, una aproximación al estado de la cohesión social en América Latina en los últimos años. Adicionalmente, siguiendo un flujo de trabajo basado en los principios de la Ciencia Abierta, todo el procedimiento de programación es abierto y de acceso libre, y por tanto, reproducible.
+
+<style>
+.poster_body h2 {
+    text-align: justify;
+    font-size: 18pt;
+    border: 0mm solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 0mm 0mm;
+    margin-top: 0mm;
+    margin-bottom: 0mm;
+    font-weight: plain;
+}
+
+</style>
+
+
+
+## **Contacto:**  
+## Julio Iturra [(julioiturrasanhueza@gmail.com)](julioiturrasanhueza@gmail.com)
+## Juan Carlos Castillo [(juancastillov@uchile.cl)](juancastillov@uchile.cl)
 
 
 # Referencias
+
+
+
+
 

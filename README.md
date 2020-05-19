@@ -1,6 +1,10 @@
-# Presentations
+# Presentaciones/Presentations
 
+Este es mi repositorio para seminarios, conferencias y reuniones.
 This is my repository for seminars, conferences and meetings.
+
+### _Reflexiones sobre el quehacer sociológico._
+* Actividad estudiantes Sociología/UdeC  - Concepción. Mayo 2020. [_Link_](https://jciturras.github.io/presentations/udec-2020/udec-2020.html)
 
 ### _Poster: Observatorio de Cohesión Social._
 * Jornada Interna COES - Santiago de Chile. Enero 2020. [_Link_](https://jciturras.github.io/presentations/Poster-OCS/poster_ocs.html)
