@@ -272,7 +272,7 @@ class:  middle
 .left-column[
 <br><br><br><br>
 # Como estudiantes de la UdeC 
-
+ 
 ]  
 
 .right-column[
