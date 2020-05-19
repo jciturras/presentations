@@ -50,7 +50,7 @@ class: middle
 ---
 
 ## Entonces...
-> Es necesario cultivar una cualidad mental: [**"La imaginación sociológica"**]() (...) como el ejercicio intelectual que permite **conectar** el proceso social general y las situaciones que los individuos deben enfrentar en sus vidas cotidianas.]
+> Es necesario cultivar una cualidad mental: [**"La imaginación sociológica"**]() (...) como el ejercicio intelectual que permite **conectar** el proceso social general y las situaciones que los individuos deben enfrentar en sus vidas cotidianas.
 
 
 .right[
